@@ -1,0 +1,25 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.sidebarOption h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 0.8em;
+}
+
+.sidebarOption:hover {
+  background-color: var(--hover-color);
+  color: var(--darkblue-color);
+  transition: color 80ms ease-in-out;
+}
+
+.sidebarOption--active {
+  color: var(--darkblue-color);
+}
