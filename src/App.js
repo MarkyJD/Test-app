@@ -1,10 +1,11 @@
 import './App.css';
 import Sidebar from './Sidebar';
+import Rightbar from './Rightbar';
+import Feed from './Feed';
 
 function App() {
   return (
     <div className="app">
-      <h1>Hey Boys!</h1>
       
       <div className="body">
         <div className="left">
@@ -12,11 +13,12 @@ function App() {
         </div>
         
         <div className="middle">
-          {/* <Sidebar /> */}
+          <Feed />
         </div>
 
         <div className="right">
           {/* <Sidebar /> */}
+          <Rightbar />
         </div>
       </div>
     </div>

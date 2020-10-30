@@ -1,0 +1,30 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 3em !important;
+  color: inherit;
+}
+
+.logo-container h1 {
+  color: inherit;
+  text-shadow: 5px 3px 4px rgba(150, 150, 150, 0.5);
+  font-weight: bold;
+}
+
+.logo-container {
+  color: var(--gunmetal-color);
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1.6em;
+}
+
+.logo-container:hover {
+  cursor: pointer;
+  color: var(--darkblue-color);
+  transition: box-shadow 120ms ease-in-out;
+}

@@ -1,0 +1,15 @@
+.root {
+  width: 90%;
+  min-width: 90%;
+  background-color: var(--off-white-color);
+  margin: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_field {
+  margin: -0.5em 4px 4px 4px !important;
+}
