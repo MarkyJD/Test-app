@@ -1,7 +1,7 @@
 .sidebar {
-  position: sticky;
-  top: 0;
-  left: 0;
+  position: fixed;
+  border-right: 1px solid var(--hover-color);
+  height: 100%;
 }
 
 .logo {

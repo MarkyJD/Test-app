@@ -2,7 +2,7 @@
   width: 90%;
   min-width: 90%;
   background-color: var(--off-white-color);
-  margin: 1em;
+  margin: 1em auto;
 }
 
 .header {
