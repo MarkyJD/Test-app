@@ -2,6 +2,7 @@
   position: fixed;
   border-right: 1px solid var(--hover-color);
   height: 100%;
+  width: var(--sidebar-width);
 }
 
 .logo {
@@ -20,7 +21,8 @@
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  padding: 1.6em;
+  padding: 1em;
+  margin-top: 1em;
 }
 
 .logo-container:hover {

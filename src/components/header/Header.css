@@ -1,0 +1,39 @@
+.header {
+  border-bottom: 1px solid var(--hover-color);
+  height: 100px;
+  position: fixed;
+  left: var(--sidebar-width);
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.search-bar {
+  width: 300px;
+}
+
+.logout {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  padding: 1em;
+  border-radius: var(--border-radius);
+}
+
+.logout:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
+
+.logout h3 {
+  font-size: 1em;
+}
+
+.exit-icon {
+  color: var(--gunmetal-color);
+  font-size: 1.6em;
+}

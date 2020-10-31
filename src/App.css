@@ -1,7 +1,8 @@
 .app {
   height: 100vh;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
+  background-color: var(--off-white-color);
 }
 
 body {
@@ -12,22 +13,7 @@ body {
   --accenter-color: #e1e5f2;
   --hover-color: #f0f2f9;
   --off-white-color: #fcfcfe;
-}
-
-.body {
-  display: flex;
-  height: 100%;
-}
-
-.left {
-  flex: 0.25;
-  min-width: 250px;
-}
-
-.middle {
-  flex: 0.5;
-}
-
-.right {
-  flex: 0.25;
+  --max-width: 1400px;
+  --sidebar-width: 220px;
+  --border-radius: 25px;
 }
